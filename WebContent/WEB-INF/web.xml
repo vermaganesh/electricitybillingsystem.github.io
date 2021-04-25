@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveRecord</servlet-name>
+    <servlet-class>SaveRecord</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SaveRecord</servlet-name>
+    <url-pattern>/save</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <context-param>
+    <param-name>Username</param-name>
+    <param-value>sonoo</param-value>
+  </context-param>
+  <context-param>
+    <param-name>Password</param-name>
+    <param-value>jaiswal</param-value>
+  </context-param>
+</web-app>
